@@ -8,7 +8,7 @@ import WelcomePage from './components/home';
 
 const App = () => {
   return (
-    <Router>
+    <Router basename="/escape">
       <Routes>
         <Route path="/entryway" element={<Entryway />} />
         <Route path="/" element={<WelcomePage />} />
