@@ -36,3 +36,62 @@
     transform: rotate(360deg);
   }
 }
+
+.entryway-room {
+  position: relative;
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+  background-color: #f7f7f7;
+}
+
+.hidden-photos-container {
+  position: relative;
+  width: 100%;
+  height: 60%;
+  border: 2px solid #ccc;
+  background: linear-gradient(135deg, #ececec, #dcdcdc);
+  overflow: hidden;
+  position: relative;
+  margin: 20px 0;
+}
+
+.hidden-photo {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-color: #ffdf00;
+  color: black;
+  font-size: 1.5rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.collected-photos-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.photo {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 5px;
+  background-color: white;
+  width: 100px;
+  height: 100px;
+}
+
+.photo-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
